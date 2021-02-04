@@ -11,7 +11,7 @@ set :repo_url, "git@github.com:al-fian/trackerr.git"
 set :deploy_to, "/var/www/trackerr"
 
 # Shared puma configuration
-set :puma_conf, "/var/www/trackerr/shared/config/puma.rb"
+# set :puma_conf, "/var/www/trackerr/shared/config/puma.rb"
 
 set :use_sudo, true
 set :branch, 'main'
@@ -41,7 +41,7 @@ set :bundle_flags, '--deployment' # Show log when install gems
 
 # Default value for :pty is false
 set :pty, true
-set :init_system, :systemd
+# set :init_system, :systemd
 set :keep_releases, 3
 
 # Default value for :linked_files is []
