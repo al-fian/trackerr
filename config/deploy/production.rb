@@ -61,9 +61,9 @@
 #   }
 #
 
-server '3.91.64.95', user: 'ubuntu', roles: %w{web app db}
+server '54.210.115.148', user: 'ubuntu', roles: %w{web app db}
 set :ssh_options, {
   forward_agent: true,
   auth_methods: %w[publickey],
-  keys: %w[/home/venus/.ssh/vpc-apps02-trackerr01.pem]
+  keys: %w[/home/venus/.ssh/vpc-apps03-trackerr01.pem]
 }
